@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Upload to AWS') {
             steps {
-                withAWS(region:'us-west-2',credentials:'id1YHld+y4u4gUs21ins8+HR/jZt0cBrM/vBRBf7') {
+                withAWS(region:'us-west-2',credentials:'id1YHld+y4u4gUs21ins8+HR/jZt0cBrM/vBRBf7')
 
                  def identity=awsIdentity();//Log AWS credentials
 
