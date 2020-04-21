@@ -11,6 +11,6 @@ pipeline {
                 s3Upload(bucket:"svetojenkinsbucket", workingDir:'static', includePathPattern:'**/*');
             
             }
-        }
+        };
     }
 } 
