@@ -8,7 +8,7 @@ pipeline {
                  
 
                 
-                    s3Upload(file:'index.html', bucket:"svetojenkinsbucket", workingDir:'static', includePathPattern:'**/*');
+                    s3Upload(file:'index.html', bucket:"svetojenkinsbucket", workingDir:'static', includePathPattern:'**/*')
                         
                 }
             }
